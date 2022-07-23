@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: spring security oauth2
+  profiles:
+    active: local
+    include: [ config ]
+  # DB
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:userdb;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  # JPA
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+  # redis
+  redis:
+    host: localhost
+    port: 6379
