@@ -22,7 +22,6 @@ if [ ! -z ${TARGET_PID} ]; then
   sudo kill ${TARGET_PID}
 fi
 
-nohup java -jar -Dserver.port=${TARGET_PORT} /home/ec2-user/playground-logging/build/libs/* > /home/ec2-user/nohup.out 2>&1 &
+nohup java -jar -Dserver.port=${TARGET_PORT} /home/ec2-user/stuti-cicd/build/libs/* > /home/ec2-user/nohup.out 2>&1 &
 echo "> Now new WAS runs at ${TARGET_PORT}."
 exit 0
-출처: https://wbluke.tistory.com/41?category=418851 [함께 자라기:티스토리]

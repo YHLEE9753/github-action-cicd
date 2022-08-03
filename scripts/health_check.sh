@@ -33,4 +33,3 @@ do
     fi
     sleep 10
 done
-출처: https://wbluke.tistory.com/41?category=418851 [함께 자라기:티스토리]

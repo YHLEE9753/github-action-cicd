@@ -27,4 +27,3 @@ echo "> Now Nginx proxies to ${TARGET_PORT}."
 sudo service nginx reload
 
 echo "> Nginx reloaded."
-출처: https://wbluke.tistory.com/41?category=418851 [함께 자라기:티스토리]
