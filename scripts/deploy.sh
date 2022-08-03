@@ -7,7 +7,7 @@ echo "> Build 파일 복사"
 
 # zip 파일의 jar 파일의 경로를 이동시켜 줍니다.
 # IF MAVEN THEN
-cp $REPOSITORY/zip/target/*.jar $REPOSITORY/
+#cp $REPOSITORY/zip/target/*.jar $REPOSITORY/
 # ELSE IF
 cp $REPOSITORY/zip/build/libs/*.jar $REPOSITORY/
 # FI
