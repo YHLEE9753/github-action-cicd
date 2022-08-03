@@ -26,8 +26,8 @@ permissions:
 # ApplicationStart라는 단계에서 deploy.sh를 ec2-user 권한으로 실행
 # timeout: 60으로 스크립트 60초 이상 수행되면 실패
 # (무한정 기다릴 수 없으니 시간 제한을 둬야 한다.)
-hooks:
-  ApplicationStart:
-    - location: scripts/deploy.sh # 루트 경로로 부터 deploy.sh의 위치를 설정해주세요.
-    timeout: 60
-    runas: ec2-user
+#hooks:
+#  ApplicationStart:
+#    - location: scripts/deploy.sh # 루트 경로로 부터 deploy.sh의 위치를 설정해주세요.
+#    timeout: 60
+#    runas: ec2-user
