@@ -59,14 +59,14 @@ jobs:
           aws-region:  ${{ env.AWS_REGION }}
 
       - name: Upload to S3
-        run: aws s3 cp --region ap-northeast-2 ./$GITHUB_SHA.zip s3://$S3_BUCKET_NAME/$PROJECT_NAME/$GITHUB_SHA.zip
+        run: aws s3 cp --region ap-northeast-2 ./$GITHUB_SHA.zip s3://${{ env.S3_BUCKET_NAME }}/${{ env.$PROJECT_NAME }}/$GITHUB_SHA.zip
         
       - name: Code Deploy
         run: |
           aws deploy create-deployment \
-          --application-name $PROJECT_NAME \
-          --deployment-group-name $DEPLOY_GROUP \
+          --application-name ${{ env.PROJECT_NAME }} \
+          --deployment-group-name ${{ env.DEPLOY_GROUP }} \
           --file-exists-behavior OVERWRITE \
           --deployment-config-name CodeDeployDefault.AllAtOnce \
-          --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=$PROJECT_NAME/$GITHUB_SHA.zip \
+          --s3-location bucket=${{ env.S3_BUCKET_NAME }},bundleType=zip,key=${{ env.PROJECT_NAME }}/$GITHUB_SHA.zip \
           --region ap-northeast-2
