@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/app/demo/zip
+    destination: /home/ec2-user/app/stuti-cicd/zip
     overwrite: yes
 
 permissions:

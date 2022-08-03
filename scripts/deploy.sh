@@ -1,7 +1,7 @@
 #!/bin/bash
 
-REPOSITORY=/home/ec2-user/app/demo
-PROJECT_NAME=demo
+REPOSITORY=/home/ec2-user/app/stuti-cicd
+PROJECT_NAME=stuti-cicd
 
 echo "> Build 파일 복사"
 
