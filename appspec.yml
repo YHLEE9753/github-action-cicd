@@ -1,9 +1,8 @@
-
 version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/stuti-cicd
+    destination: /home/ec2-user/app/demo/zip
     overwrite: yes
 
 permissions:
@@ -11,6 +10,7 @@ permissions:
     pattern: "**"
     owner: ec2-user
     group: ec2-user
+    mode: 755
 
 hooks:
   ApplicationStart:
