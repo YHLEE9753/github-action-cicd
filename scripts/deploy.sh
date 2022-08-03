@@ -1,25 +1,36 @@
 #!/bin/bash
-BUILD_JAR=$(ls /home/ec2-user/projectName/build/libs/*.jar)
-JAR_NAME=$(basename $BUILD_JAR)
-echo "> build 파일명: $JAR_NAME" >> /home/ec2-user/projectName/deploy.log
 
-echo "> build 파일 복사" >> /home/ec2-user/projectName/deploy.log
-DEPLOY_PATH=/home/ec2-user/sictak/
-cp $BUILD_JAR $DEPLOY_PATH
+REPOSITORY=/home/ec2-user/app/stuti
+PROJECT_NAME=stuti
 
-echo "> 현재 실행중인 애플리케이션 pid 확인" >> /home/ec2-user/projectName/deploy.log
-CURRENT_PID=$(pgrep -f $JAR_NAME)
+echo "> Build 파일 복사"
 
-if [ -z $CURRENT_PID ]
-then
-  echo "> 현재 구동중인 애플리케이션이 없으므로 종료하지 않습니다." >> /home/ec2-user/projectName/deploy.log
+cp $REPOSITORY/zip/target/*.jar $REPOSITORY/
+
+echo "> 현재 구동 중인 애플리케이션 pid 확인"
+
+CURRENT_PID=$(pgrep -fl $PROJECT_NAME | awk '{print $1}')
+
+echo "현재 구동 중인 애플리케이션 pid: $CURRENT_PID"
+
+if [ -z "$CURRENT_PID" ]; then
+  echo "> 현재 구동 중인 애플리케이션이 없으므로 종료하지 않습니다."
 else
   echo "> kill -15 $CURRENT_PID"
   kill -15 $CURRENT_PID
   sleep 5
 fi
 
-DEPLOY_JAR=$DEPLOY_PATH$JAR_NAME
-echo "> DEPLOY_JAR 배포"    >> /home/ec2-user/projectName/deploy.log
-chmod +x $DEPLOY_JAR
-nohup java -jar $DEPLOY_JAR >> /home/ec2-user/deploy.log 2>/home/ec2-user/projectName/deploy_err.log &
+echo "> 새 애플리케이션 배포"
+
+JAR_NAME=$(ls -tr $REPOSITORY/*.jar | tail -n 1)
+
+echo "> JAR Name: $JAR_NAME"
+
+echo "> $JAR_NAME 에 실행 권한 추가"
+
+chmod +x $JAR_NAME
+
+echo "> $JAR_NAME 실행"
+
+nohup java -jar -Dspring.profiles.active=real $JAR_NAME > $REPOSITORY/nohup.out 2>&1 &
