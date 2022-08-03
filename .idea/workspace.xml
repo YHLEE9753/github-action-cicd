@@ -1,208 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f8b853e-fe4f-4868-9a30-6f9cf2f2fc39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/chore.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/documentation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/fix.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/refactor.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/style.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/checkstyle/naver-checkstyle-rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/formatter/naver-intellij-formatter.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kppl-submodule/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kppl-submodule/application-common.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kppl-submodule/application-local.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kppl-submodule/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/docs/index.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/docs/study-group.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/StutiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/controller/FeedController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/controller/FeedMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/controller/dto/RegisterPostRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/model/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/model/Feed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/model/FeedImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/model/FeedLike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/repository/FeedCustomRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/repository/FeedCustomRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/repository/FeedImageRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/repository/FeedRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/service/FeedConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/service/FeedService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/service/dto/FeedResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/service/dto/PostChangeDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/service/dto/PostCreateDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/service/dto/PostDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/feed/service/dto/PostIdResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/controller/AuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/controller/MemberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/controller/MemberMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/controller/dto/MemberPutRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/controller/dto/MemberSaveRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/model/Career.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/model/Email.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/model/Field.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/model/Mbti.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/model/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/model/MemberRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/repository/CustomMemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/repository/CustomMemberRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/repository/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/service/AuthenticationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/service/MemberConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/service/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/service/dto/MemberDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/service/dto/MemberIdResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/service/dto/MemberPutDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/member/service/dto/MemberResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/controller/StudyGroupMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/controller/StudyGroupRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/controller/dto/StudyGroupCreateRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/controller/dto/StudyGroupUpdateRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/controller/dto/validator/CustomDateTimeFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/controller/dto/validator/DescriptionLength.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/controller/dto/validator/TitleLength.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/model/PreferredMbti.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/model/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/model/Region.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/model/StudyGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/model/StudyMember.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/model/StudyMemberRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/model/StudyPeriod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/model/Topic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/PreferredMbtiRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/QuestionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/service/dto/StudyGroupApplyDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/service/dto/StudyGroupCreateDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/service/dto/StudyGroupDeleteDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/service/dto/StudyGroupIdResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/service/dto/StudyGroupUpdateDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/service/studygroup/StudyGroupConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/service/studygroup/StudyGroupService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/studygroup/CustomStudyGroupRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/studygroup/CustomStudyGroupRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/studygroup/StudyGroupRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/studymember/CustomStudyMemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/studymember/CustomStudyMemberRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/domain/studygroup/repository/studymember/StudyMemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/base/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/base/BaseTimeEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/cache/model/BlackListToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/cache/model/RefreshToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/cache/model/TemporaryMember.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/cache/repository/BlackListTokenRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/cache/repository/RefreshTokenRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/cache/repository/TemporaryMemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/config/JpaAuditConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/config/QuerydslConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/config/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/config/SnakeUpperCaseNamingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/config/WebMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/error/ErrorResponseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/error/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/error/dto/CustomFieldError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/error/dto/ErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/error/dto/ErrorResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/error/exception/BusinessException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/error/exception/FeedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/error/exception/FileException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/error/exception/MemberException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/error/exception/StudyGroupException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/page/offset/OffsetPageRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/page/offset/OffsetPageResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/security/CustomOAuth2MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/security/JwtAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/security/MemberIdAuthenticationToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/security/OAuth2Attribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/security/OAuth2SuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/security/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/token/JwtProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/token/TokenService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/token/TokenType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/token/Tokens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/uploader/AwsS3ImageUploader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/uploader/ImageUploader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/uploader/LocalImageUploader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/uploader/common/ImageDirectory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/uploader/common/ImageFileUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/uploader/common/ImageFileValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prgrms/project/stuti/global/util/CoderUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback/console.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback/file-error.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback/properties.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback/sentry.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/MEMBER.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/config/RepositoryTestConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/config/ServiceTestConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/config/TestConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/feed/controller/FeedControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/feed/service/FeedServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/member/controller/AuthenticationControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/member/controller/MemberControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/member/model/EmailTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/member/service/AuthenticationServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/member/service/MemberServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/studygroup/controller/StudyGroupRestControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/studygroup/model/StudyPeriodTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/studygroup/repository/studymember/StudyMemberRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/domain/studygroup/service/StudyGroupServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/global/uploader/ImageFileValidatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prgrms/project/stuti/global/uploader/ImageUploaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/change.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/test.png" beforeDir="false" />
+    <list default="true" id="a3b672d7-d44d-4417-bebd-0f75dca44f07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2CqWCen2N4x2OmCeZ5VSTdIeyFW" />
+  <component name="ProjectId" id="2CqWYyeQm4Gp5Ztv5NjzOLgeNtq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "9de0862494cc3aa211be7c76dc6b547b"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f8b853e-fe4f-4868-9a30-6f9cf2f2fc39" name="Changes" comment="" />
-      <created>1659530484110</created>
+      <changelist id="a3b672d7-d44d-4417-bebd-0f75dca44f07" name="Changes" comment="" />
+      <created>1659530651878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659530484110</updated>
-      <workItem from="1659530497555" duration="17000" />
+      <updated>1659530651878</updated>
+      <workItem from="1659530653837" duration="313000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
