@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3b672d7-d44d-4417-bebd-0f75dca44f07" name="Changes" comment="cicd">
+      <change afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/health_check.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run_new_was.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/switch.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659530651878</updated>
       <workItem from="1659530653837" duration="313000" />
-      <workItem from="1659533600213" duration="10434000" />
+      <workItem from="1659533600213" duration="11832000" />
     </task>
     <task id="LOCAL-00001" summary="cicd">
       <created>1659533748943</created>
@@ -204,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659546983468</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="cicd">
+      <created>1659547285832</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659547285832</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
