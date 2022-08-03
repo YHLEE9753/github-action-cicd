@@ -1,0 +1,12 @@
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:doctype: book
+:title: STUTI API
+:toc-title: STUTI API 목차
+:toc: left
+
+[[title]]
+= STUTI API v1
+
+include::study-group.adoc[]
