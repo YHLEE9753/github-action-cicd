@@ -10,7 +10,7 @@ name: stuti-cicd
 on:
   push:
     branches:
-      - develop
+      - main
 
   workflow_dispatch:
 
