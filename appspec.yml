@@ -3,7 +3,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/app/stuti
+    destination: /home/ec2-user/stuti-cicd
     overwrite: yes
 
 permissions:
@@ -11,9 +11,3 @@ permissions:
   pattern: "**"
   owner: ec2-user
   group: ec2-user
-
-hooks:
-  ApplicationStart:
-    - location: scripts/deploy.sh
-    timeout: 60
-    runas: ec2-user
