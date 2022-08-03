@@ -9,7 +9,7 @@ files:
   - source: /
     # source에서 지정된 파일을 받을 위치
     # 이후 jar를 실행하는 등은 destination에서 옮긴 파일로 진행
-    destination: /home/ec2-user/app/stuticicd/zip/
+    destination: /home/ec2-user/app/stuti-cicd/zip/
     # overwrite
     # 기존에 파일들이 있으면 덮어쓸지 결정
     # 현재 yes라고 했으니 파일 덮어씀
